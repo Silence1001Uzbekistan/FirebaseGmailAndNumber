@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".SecondActivity">
+
+    <EditText
+        android:id="@+id/phone_et"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Phone number"
+        android:inputType="phone"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/phone_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        tools:ignore="MissingConstraints" />
+
+
+    <EditText
+        android:id="@+id/sms_code_et"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="SMS code"
+        android:inputType="phone"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/resend_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resend code"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>
